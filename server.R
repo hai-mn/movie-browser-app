@@ -1,5 +1,5 @@
 # Define server function required to create the scatterplot --------------------
-server <- function(input, output) {
+shinyServer <- function(input, output) {
    
    # Create scatterplot object the plotOutput function is expecting -------------
    output$scatterplot <- renderPlot({

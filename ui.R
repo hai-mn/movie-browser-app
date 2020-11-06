@@ -8,7 +8,7 @@ library(tools)
 load("data/movies.Rdata")
 
 # Define UI for application that plots features of movies ----------------------
-ui <- fluidPage(
+shinyUI <- fluidPage(
    
    # Title 
    titlePanel("Movie Browser"),
