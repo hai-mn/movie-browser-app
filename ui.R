@@ -5,7 +5,8 @@ library(DT)
 library(tools)
 
 # Load data --------------------------------------------------------------------
-load("data/movies.Rdata")
+githubURL <- "https://https://github.com/seajanelamo/movie_browser_app/blob/main/data/movies.Rdata"
+load(url(githubURL))
 
 # Define UI for application that plots features of movies ----------------------
 shinyUI <- fluidPage(
